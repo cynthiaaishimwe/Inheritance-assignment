@@ -7,6 +7,9 @@ fun main(){
 
     var bus = Bus("scania","toyota","white",2)
    println(bus.maxTripFare(30.0))
+    bus.carry(5)
+    bus.identity()
+ println( bus.calculateParkingfees(3))
 
 }
 open class Car( var make:String,var model:String, var color:String, var capacity: Int){
